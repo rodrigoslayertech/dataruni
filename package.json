@@ -1,0 +1,31 @@
+{
+  "name": "@codecious/dataruni",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Unified Database System for PWA React projects (React + any other database)",
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/rodrigoslayertech/dataruni.git"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "keywords": [
+    "react",
+    "indexeddb",
+    "state",
+    "persistence"
+  ],
+  "author": "Codecious",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "react": "^18.3.1",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.6.3"
+  }
+}
