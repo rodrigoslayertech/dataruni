@@ -7,6 +7,9 @@
    "type": "git",
    "url": "git+https://github.com/rodrigoslayertech/dataruni.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
